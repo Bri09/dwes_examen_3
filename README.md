@@ -12,6 +12,10 @@ A banda de la pagina de login disposem d’una pàgina de signup que permet crea
 <br>
 https://dawsonferrer.com/allabres/mvc/worldGame/Controllers/signUpController.php
 <br><br>
+Finalment disposem d'un controlador sense vista per tal de fer logout:
+<br>
+https://dawsonferrer.com/allabres/mvc/worldGame/Controllers/logoutController.php
+<br><br>
 La base de dades presenta la següent estructura:
 ![DB](DB.png)
 *PRESTAR ESPECIAL ATENCIÓ A MAJÚSCULES I MINÚSCULES
