@@ -13,8 +13,8 @@ A banda de la pagina de login disposem d’una pàgina de signup que permet crea
 https://dawsonferrer.com/allabres/mvc/worldGame/Controllers/signUpController.php
 <br><br>
 La base de dades presenta la següent estructura:
-![](DB.png)
-*PRESTAR ESPECIAL ATENCIÓ A MAJUSCULES I MINUSCULES
+![DB](DB.png)
+*PRESTAR ESPECIAL ATENCIÓ A MAJÚSCULES I MINÚSCULES
 <br><br>
 Tal com es pot observar a la base de dades, la taula més important és la de countries, on podem trobar el codi de cada país, el seu nom, la seva població, el seu producte interior brut (GNP), la seva capital, i el seu usuari (usuari que ha envaït el país, per defecte NULL). Mentre que les taules cities i countryLanguages són secundaries i estan relacionades directament amb la taula de countries mitjançant claus foranies. La taula users és on nosaltres crearem els nostres usuaris i servirà també per definir a quin usuari pertany cada país, disposem ja d’un usuari de prova tal com s’ha explicat amb anterioritat (usuari creat amb la funció crypt) i que per defecte té el país Andorra.
 <br><br>
